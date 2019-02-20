@@ -29,7 +29,7 @@ const submit = document.getElementById("submit");
 
 submit.onclick = function(){
     var userInput = document.getElementById("vegetarian").value;
-    document.getElementById("output").innerText = userInput;
+    //document.getElementById("output").innerText = userInput;
 
     console.log(userInput);
     chrome.storage.sync.set(
